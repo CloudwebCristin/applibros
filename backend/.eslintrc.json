@@ -1,0 +1,27 @@
+{
+  "extends": ["airbnb-typescript/base"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "implicit-arrow-linebreak": "off",
+    "max-len": [
+      "error",
+      {
+        "code": 120,
+        "ignoreComments": true
+      }
+    ],
+    "object-curly-newline": "off",
+    "import/order": [
+      "error",
+      {
+        "groups": ["builtin", "external", "parent", "sibling", "index"],
+        "newlines-between": "always"
+      }
+    ],
+    "import/prefer-default-export": "off",
+    "no-underscore-dangle": "off",
+    "@typescript-eslint/comma-dangle": "off"
+  }
+}
