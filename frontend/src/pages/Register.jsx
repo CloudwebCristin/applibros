@@ -1,8 +1,8 @@
 import React from "react";
 import {FormControl,Input,InputLabel,FormHelperText,Button,Grid, Checkbox} from '@material-ui/core';
 import { useState } from "react";
-import { storeToken } from "../utils/authentication";
-import { register } from "../utils/api/auth";
+
+
 
 const Register = () => {
     const [email, setEmail] = useState("");
